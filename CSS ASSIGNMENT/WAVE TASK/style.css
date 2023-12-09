@@ -1,0 +1,126 @@
+.parent{
+    background-image: url( Put\ Your\ Image\ \(3\).png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+}
+body{
+  overflow-y: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    position: relative;
+    top:185px;
+    width: 100%;
+    opacity: 0.6;
+}
+.line2{
+    position: relative;
+    bottom: 330px;
+    width: 100%;
+}
+.line3{
+    position: relative;
+    bottom: 450px;
+    margin-left: 200px;
+    border: 2px solid rgba(255, 0, 0, 0.49);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+.line4{
+position: relative;
+    bottom: 520px;
+    margin-left: 220px;
+    border: 2px solid rgba(255, 0, 0, 0.49);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+.line5{
+position: relative;
+border: 1px solid white;
+height: 60px;
+margin-left: 550px;
+margin-top: 50px;
+border-right: none;
+border-top: none;
+border-bottom: none;
+bottom: 560px;
+}
+.line6{
+    font-size: 25px;
+    position: relative;
+    color: white;
+    color: lightcoral;
+    font-style: inherit;
+    margin-top: -540px;
+    margin-left: 470px;
+}
+.line7{
+  font-size: 20px;
+  position: relative;
+  color: white;
+  margin-left: 495px;
+  margin-top: 10px;
+}
+.line8{
+position: relative;
+    bottom: 520px;
+    margin-left: 800px;
+    margin-top: 280px;
+    border: 2px solid rgba(255, 0, 0, 0.49);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+.line9{
+position: relative;
+    bottom: 520px;
+
+    margin-left: 200px;
+    border: 2px solid rgba(255, 0, 0, 0.49);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+.line10
+{
+position: relative;
+bottom: 580px;
+margin-left: 150px;
+border: 2px solid rgba(255, 0, 0, 0.49);
+border-radius: 50px;
+height: 80px;
+width: 80px;   
+}
+.OT{
+    color: white;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 750px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.maind{
+    position: absolute;
+}
+.team{
+     color: white;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.p1{
+     color: white;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 750px;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    .parent1 {
+      clip-path: polygon(
+        50% 0%,
+        100% 0,
+        100% 35%,
+        100% 77%,
+        82% 84%,
+        50% 93%,
+        21% 85%,
+        0 78%,
+        0% 35%,
+        0 0
+      );
+      height: 750px;
+      position: absolute;
+      width: 100%;
+    }
+    .child1 {
+      position: relative;
+      clip-path: polygon(
+        50% 0%,
+        100% 0,
+        100% 35%,
+        100% 77%,
+        82% 84%,
+        50% 93%,
+        21% 85%,
+        0 78%,
+        0% 35%,
+        0 0
+      );
+      height: 750px;
+      opacity: 0.7;
+      background-color: black;
+      width: 100%;
+    }
+    .logo{
+      border: 1PX SOLID white;
+      color: white;
+      width: 50PX;
+        position: relative;
+        margin-top: -700px;
+        left: 350PX;
+        top: -40PX;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFF;
+        margin-left: 10px;
+        
+    }
+    .parent3{
+        position: absolute;
+        right: 400px;
+        top: 10PX;
+
+    
+    }
+    .L{
+      padding: 2PX;
+      background-color: white;
+      color: black;
+    }
+    .home{
+      color: red;
+      border: 1px solid red;
+
+      border-top: none;
+      border-right: none;
+      border-left: none;
+       
+    }
+    .MAINH1{
+      position: relative;
+      top: 150PX;
+      font-size: 15PX;
+      text-align: center;
+      color: white;
+    }
+    .WELCOME{
+      position: relative;
+      top: 180PX;
+      text-align: center;
+
+      font-size: 50PX;
+      color: white;
+    }
+    .p{
+      position: relative;
+      top: 180PX;
+      font-size: 15px;
+      color: white;
+      text-align: center;
+    }
+    .btn1{
+      position: relative;
+      background-color: red;
+      top: 230PX;
+      left: 700PX;
+      font-size: 15px;
+      
+      color: white;
+    }
+    .hukdo{ 
+      position: relative;
+      border: 2px solid #fff;
+      height: 25px;
+      padding: 25px;
+      width: 25px;
+      border-radius: 50px;
+      margin-top: 410PX;
+      margin-left: 820PX;
+      background-color: #fff;
+
+    }
+    .btn2{
+      position: relative;
+      top: 230PX;
+      background-color: #fff;
+      font-size: 15px;
+      left: 700PX;
+      color: black;
+    }
+    .im{
+      margin-top: 150PX;
+      margin-left:200px ;
+    }
+ p{
+  
+  text-align: center;
+ }
+ h4{
+      margin-top: 30PX;
+  
+  text-align: center;
+ }
+    .mainpic{
+      display: flex;
+      justify-content: space-between;
+
+      align-items: center;
+      margin-top: 50px;
+    }
+    .tri{
+      position: relative;
+      top: 40Px;
+      right: 60PX;
+    }
+    .border{
+      border:  1px solid black;
+      height: 40px;
+      width: 50px;
+      position: relative;
+      top: 180px;
+      left: 185px;
+    }
+   
+  </style>
+  <body>
+    <div class="parent">
+      <img class="parent1" src="Put Your Image (1).png" alt="" />
+      <h1 class="child1"></h1>
+      <div class="logo">
+            <span class="L">L</span>OGO
+        </div>
+         <div class="parent3">
+            <a href="#" class="home">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">TEAM</a>
+            <a href="#">BIO</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </div>
+
+        <h3 class="MAINH1"> OUR CLIENTS ARE OUR FIRST PRIORITY</h3>
+        <H1 class="WELCOME"> WELCOME TO SKY</H1>
+         ________*________
+         
+        <P class="p"> Lorem ipsum is  simply dummy text of the printing and typetesting industry. lorem ipsum <br>  has been  the indsutrys  standard dummy text ever since the 1500s, when an unknown <br> printer book a gallery  of type and  scrambled it to make  a type  specimen book</P>
+        <button class="btn1">GET STARTED NOW</button>
+        <button class="btn2"> LEARN MORE</button>
+    
+      </div>
+      <div class="hukdo">
+        <img src="Forma 1.png" alt="">
+      </div>
+      <div class="mainpic">
+      <div class="chasma">
+          <img class="im" src="1 (1).png" alt="">
+          <img class="tri" src="tri.png" alt="">
+        <h4>SLEEK DESIGN</h4>
+        <p>orem ipsum is  simply dummy text of the printing and typetesting industry. lorem ipsum   has been  the indsutrys  standard dummy text ever since the 1500s, when an unknown  printer book a gallery  of type and  scrambled it to make  a type  specimen book</p>
+      </div>
+
+      <div>
+        <div class="border"></div>
+
+        <img class="im" src="2.png" alt="">
+        <h4>CLEAN CODES</h4>
+              <p>orem ipsum is  simply dummy text of the printing and typetesting industry. lorem ipsum   has been  the indsutrys  standard dummy text ever since the 1500s, when an unknown  printer book a gallery  of type and  scrambled it to make  a type  specimen book</p>
+
+      
+      </div>
+      <DIV>
+        <div class="border"></div>
+
+        <img  class="im"  src="3.png" alt="">
+        <h4> CREATIVE IDEAS</h4>
+        <p>orem ipsum is  simply dummy text of the printing and typetesting industry. lorem ipsum  has been  the indsutrys  standard dummy text ever since the 1500s, when an unknown  printer book a gallery  of type and  scrambled it to make  a type  specimen book</p>
+      </DIV>
+
+      <DIV>
+        <div class="border"></div>
+
+        <img class="im" src="4.png" alt="">
+        <h4>FREE SUPPORT</h4>
+        <p>orem ipsum is  simply dummy text of the printing and typetesting industry. lorem ipsum  has been  the indsutrys  standard dummy text ever since the 1500s, when an unknown  printer book a gallery  of type and  scrambled it to make  a type  specimen book</p>
+        </DIV>
+    
+        </div>
+       
+    </div>
+  </body>
+</html>
